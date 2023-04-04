@@ -1,10 +1,14 @@
 <?php
-$N = readline();
-for($a=1; $a<=$N; $a++)
-{echo "HO";
-if($a<$N)
+
+    $N=readline();
+    for($cont=1; $cont<=$N; $cont++)
     {
-        echo " ";
-    }}
-echo "!";
+        echo "Ho";
+        if($cont<$N)
+        {
+            echo " ";
+        }
+        
+    }
+    echo "!\n";
 ?>
